@@ -5,7 +5,7 @@ LIDAR GIS Monte Carlo calculation of shadowed areas based on python ephum sun po
 
 Using ![LIDAR](https://en.wikipedia.org/wiki/Lidar) height map data, we can predict how the sun's light will be blocked for a given time of day. This script chooses random samples of the map, and treats each sample like a sundial, tracing the projection of the sample across the geographic region (based on the sun's direction at a specified time and date). A point is "shadowed" (coloured black in the pictures below) if this projection is taller than the building height at that point. The algorithm has potential applications in urban solar panel placement, calculating which rooftops can most capitalise on good sun exposure.
 
-The height map data is expected in ESRI ASCII raster format; this sample data set for postcode OX13BW came from the Geomatics Group used under a non-commercial license. When this code was written in early 2014, LIDAR data sets were not open data, but available for free to academics. After September 2015, LIDAR datasets for England were released as ![open data](http://us6.campaign-archive2.com/?u=e7311d49e9ac144a359ee2a96&id=ce444955ae) by the Environment Agency.
+The height map data is expected in ESRI ASCII raster format; this sample data set for postcode OX13BW came from the Geomatics Group used under a non-commercial license. When this code was written in early 2014, LIDAR data sets were not open data, but available for free to academics. After September 2015, LIDAR datasets for England were released as [open data](http://us6.campaign-archive2.com/?u=e7311d49e9ac144a359ee2a96&id=ce444955ae) by the Environment Agency.
 
 Example maps
 ------------
